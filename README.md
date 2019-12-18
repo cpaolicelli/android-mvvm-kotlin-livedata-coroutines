@@ -1,2 +1,2 @@
-# android-mvvm-kotlin-livedata-coroutines
-Android sample project with Kotlin, Dagger2, LiveData, Coroutines and MVVM pattern.
+# android-mvvm-kotlin-livedata-coroutines-room
+Android sample project with Kotlin, Dagger2, LiveData, Coroutines, Room and MVVM pattern.

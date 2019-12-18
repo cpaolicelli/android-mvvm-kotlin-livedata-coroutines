@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/posts_fragment">
+
+    <fragment
+        android:id="@+id/posts_fragment"
+        android:name="com.uillirillino.myapplication.posts.PostsFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_postsFragment_to_postDetailFragment"
+            app:destination="@id/post_detail_fragment" />
+        <argument
+            android:name="userMessage"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/post_detail_fragment"
+        android:name="com.uillirillino.myapplication.post.PostDetailFragment"
+        android:label="Post Details" >
+        <argument
+            android:name="postId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_post_detail_fragment_to_posts_fragment"
+            app:destination="@id/posts_fragment" />
+    </fragment>
+    <argument
+        android:name="userMessage"
+        android:defaultValue="0" />
+</navigation>

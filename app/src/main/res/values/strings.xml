@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="small_text">Avoiding elevation interference.</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading_posts_error">Error while loading posts</string>
+    <string name="no_posts_image_content_description">No tasks image</string>
+    <string name="post_image">post image</string>
+    <string name="share_button">SHARE</string>
+    <string name="learn_more_button">LEARN MORE</string>
+    <string name="author_profile_image">Author profile image</string>
+</resources>
